@@ -1,5 +1,5 @@
-Cyanogenmod For Galaxy Grand Prime
-==================================
+Manifest Work On cm-14.1, Resurrection Remix N and CrDroid Android
+==================================================================
 
 Instructions
 ---------------
