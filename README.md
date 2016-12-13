@@ -1,4 +1,4 @@
-Manifest Work On cm-14.1, Resurrection Remix N and CrDroid Android
+Manifest Work On AOKP ROM...
 ==================================================================
 
 Instructions
@@ -11,19 +11,19 @@ Initializing:
 
 First, create a folder to hold the source code: 
 
-	mkdir ~/cm-14.1
+	mkdir ~/aokp
 
 Next, naviate into that new directory via the terminal:
 
-	cd ~/cm-14.1
+	cd ~/aokp
 
 To initialize your local repository using the Turbo ROM trees, use this command:
 
-	repo init -u git://github.com/CyanogenMod/android.git -b cm-14.1
+	repo init -u https://github.com/AOKP/platform_manifest.git -b nougat
 
 Also add the local manifests:
 
-	git clone https://github.com/Cyanogenmod-G530H/local_manifest -b cm-14.1 .repo/local_manifests
+	git clone https://github.com/Cyanogenmod-G530H/local_manifest -b aokp-n .repo/local_manifests
 
 Then sync up with this command:
 
@@ -38,12 +38,12 @@ _Building from source_
 
 First:
 
-	cd ~/cm-14.1
+	cd ~/aokp
 
 Second:
 
 	$ echo "export USE_CCACHE=1" >> ~/.bashrc
-	$ ~/cm-14.1/prebuilts/misc/linux-x86/ccache/ccache -M 50G
+	$ ~/aokp/prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
 Third:
 
