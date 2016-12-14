@@ -1,5 +1,5 @@
-Manifest Work On cm-14.1, Resurrection Remix N and CrDroid Android
-==================================================================
+Manifest CypherOS For Glaxy Grand Prime
+=======================================
 
 Instructions
 ---------------
@@ -11,23 +11,23 @@ Initializing:
 
 First, create a folder to hold the source code: 
 
-	mkdir ~/cm-14.1
+	mkdir ~/aoscp
 
 Next, naviate into that new directory via the terminal:
 
-	cd ~/cm-14.1
+	cd ~/aoscp
 
-To initialize your local repository using the Turbo ROM trees, use this command:
+To initialize your local repository, use this command:
 
-	repo init -u git://github.com/CyanogenMod/android.git -b cm-14.1
+	repo init -u https://github.com/CypherOS/platform_manifest.git -b n7.1
 
 Also add the local manifests:
 
-	git clone https://github.com/Cyanogenmod-G530H/local_manifest -b cm-14.1 .repo/local_manifests
+	git clone https://github.com/Cyanogenmod-G530H/local_manifest -b n7.1 .repo/local_manifests
 
 Then sync up with this command:
 
-	repo sync -fcj4 --force-sync --force-broken
+	repo sync -fcj4 --force-sync
 	
 You can make the 4 higher depending on how fast your internet connection is. 
 
@@ -38,12 +38,12 @@ _Building from source_
 
 First:
 
-	cd ~/cm-14.1
-
+	cd ~/aoscp
+	
 Second:
 
 	$ echo "export USE_CCACHE=1" >> ~/.bashrc
-	$ ~/cm-14.1/prebuilts/misc/linux-x86/ccache/ccache -M 50G
+	$ ~/aoscp/prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
 Third:
 
