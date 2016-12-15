@@ -2,8 +2,8 @@
 <manifest>
 
     <!-- device tree -->	
-    <project path="device/samsung/fortunave3g" name="Cyanogenmod-G530H/android_device_samsung_fortunave3g" remote="github" revision="cyper" />
-    <project path="device/samsung/fortuna3g" name="Cyanogenmod-G530H/android_device_samsung_fortuna3g" remote="github" revision="cyper" />
+    <project path="device/samsung/fortunave3g" name="Cyanogenmod-G530H/android_device_samsung_fortunave3g" remote="github" revision="n7.1" />
+    <project path="device/samsung/fortuna3g" name="Cyanogenmod-G530H/android_device_samsung_fortuna3g" remote="github" revision="n7.1" />
     <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-14.1" />
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
 
